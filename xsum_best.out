@@ -1,0 +1,4 @@
+nohup: ignoring input
+/home/v-weipeng/.conda/envs/glat/lib/python3.7/site-packages/omegaconf/omegaconf.py:579: UserWarning: update() merge flag is is not specified, defaulting to False.
+For more details, see https://github.com/omry/omegaconf/issues/367
+  stacklevel=1,

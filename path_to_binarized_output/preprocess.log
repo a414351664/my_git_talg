@@ -1,0 +1,15 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='path_to_binarized_output/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='src', srcdict='path_to_raw_text_data/vocab.txt', target_lang='tgt', task='translation', tensorboard_logdir=None, testpref='path_to_raw_text_data/test', tgtdict='{input_dir}/vocab.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='path_to_raw_text_data/train', user_dir=None, validpref='path_to_raw_text_data/valid', workers=32)
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bf16=False, bpe=None, checkpoint_shard_count=1, checkpoint_suffix='', cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='path_to_binarized_output/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=100, lr_scheduler='fixed', memory_efficient_bf16=False, memory_efficient_fp16=False, min_loss_scale=0.0001, model_parallel_size=1, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer=None, padding_factor=8, profile=False, quantization_config_path=None, scoring='bleu', seed=1, source_lang='src', srcdict='path_to_raw_text_data/vocab.txt', target_lang='tgt', task='translation', tensorboard_logdir=None, testpref='path_to_raw_text_data/test', tgtdict='path_to_raw_text_data/vocab.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, tpu=False, trainpref='path_to_raw_text_data/train', user_dir=None, validpref='path_to_raw_text_data/valid', workers=32)
+[src] Dictionary: 30526 types
+[src] path_to_raw_text_data/train.src: 17928 sents, 597032 tokens, 26.4% replaced by <unk>
+[src] Dictionary: 30526 types
+[src] path_to_raw_text_data/valid.src: 1605 sents, 52526 tokens, 26.2% replaced by <unk>
+[src] Dictionary: 30526 types
+[src] path_to_raw_text_data/test.src: 2863 sents, 96663 tokens, 27.3% replaced by <unk>
+[tgt] Dictionary: 30526 types
+[tgt] path_to_raw_text_data/train.tgt: 17928 sents, 414605 tokens, 28.5% replaced by <unk>
+[tgt] Dictionary: 30526 types
+[tgt] path_to_raw_text_data/valid.tgt: 1605 sents, 36596 tokens, 28.4% replaced by <unk>
+[tgt] Dictionary: 30526 types
+[tgt] path_to_raw_text_data/test.tgt: 2863 sents, 67102 tokens, 28.9% replaced by <unk>
+Wrote preprocessed data to path_to_binarized_output/
